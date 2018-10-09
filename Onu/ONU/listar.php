@@ -23,7 +23,7 @@ $sql->execute();
 	<center><br><br><div class="bloco-search">
 		<form action="" method="POST">
 			<input type="text" name="txtSearch" placeholder="Procurar...">
-			<input type="submit">	<br><br><br>
+			<input type="submit" value="Procurar">	<br><br><br>
 		</form>
 	</div></center>
 	<?php
