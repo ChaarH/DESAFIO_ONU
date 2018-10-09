@@ -25,11 +25,11 @@ if (!isset($_SESSION['UsuarioID']) OR ($_SESSION['UsuarioNivel'] < $nivel_necess
         <div id="login">
             <h2>Menu</h2><hr><br>
             <center>
-                <a href="sistema.php"><div id="btn-menu">Registrar denuncia</div></a>
-                <a href="listar.php"><div id="btn-menu">Consultar denuncias</div></a><br>
+                <a href="sistema.php"><div id="btn-menu">Registrar denúncia</div></a>
+                <a href="listar.php"><div id="btn-menu">Consultar denúncias</div></a><br>
                 <?php
                     if($_SESSION['UsuarioNivel'] == 3){
-                        echo "<a href='#'><div id='btn-menu'>Adicionar usuarios</div></a>";      
+                        echo "<a href='#'><div id='btn-menu'>Adicionar usuários</div></a>";      
                     }
                 ?>
                 <a href="#"><div id="btn-menu">Alterar perfil</div></a>
