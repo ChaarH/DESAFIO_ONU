@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=K2D|Montserrat');
+
+/*
+font-family: 'K2D', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1.1em;
+    background-image: url(../photos/coracao-onu-2.png);
+    background-size: 1360px 720px;
+    background-repeat: no-repeat;   
+}
+
+h2{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 1.1em;
+}
+
+input{
+    height: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    border-radius: 2px;
+    border: 1px solid #a1a1a1;
+}
+
+input[type="submit"]{
+    border: 1px solid #5b92e5;
+    background-image: linear-gradient(to bottom right, #5b92e5, #1e66d2);
+    margin: 0 auto;
+    width: 100px;
+    color: white;
+    font-style: bold;
+    transition: 3s;
+    height: 35px;
+    border-radius: 1px;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid #5b92e5;
+    background-image: linear-gradient(to bottom right, #1e66d2, #5b92e5   );
+    transition: 3s;
+}
+
+#main-logo{
+    height: 80px;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#login{
+    border: 1px solid #b0b0b0;
+    background: #fcfcfc;
+    border-radius: 2px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#bloco-cadastros{
+    border: 1px solid #b0b0b0;
+    background: #fcfcfc;
+    border-radius: 2px;
+    width: 500px;
+    margin: 0 auto;
+    width: 55%;
+    padding: 15px;
+    font-size: 0.8em;
+}
+
+#bloco-cadastros{
+    
+}
+
+#login-form{
+    margin: 10 auto;
+    padding: 15px;
+}
+
+#ligue{
+    width: 100px;
+    height: 70px;
+    padding: 10px 50px;
+}
+
+#btn-menu{
+    font-size: 0.7em;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #5b92e5, #1e66d2);
+    margin: 7px;
+    width: 85%;
+    color: white;
+    border-radius: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn-menu:hover{
+    background-image: linear-gradient(to bottom right, #1e66d2, #5b92e5);
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+#info{
+    width: 15px;
+    height: 15px;
+}
